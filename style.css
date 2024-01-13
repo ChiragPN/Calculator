@@ -15,6 +15,7 @@
     /* justify-content: center; */
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .calculator {
@@ -55,14 +56,7 @@ input {
 }
 
 #equal {
-    border: 0;
     width: 126px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    margin: 10px;
 }
 
 .calculator .op {
