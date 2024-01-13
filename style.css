@@ -22,6 +22,7 @@
     background-color: #3a4452;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 13px 15px 5px rgba(44, 37, 37, 0.4);
 }
 
 .calculator .btn {
@@ -30,7 +31,7 @@
     height: 50px;
     border-radius: 10px;
     background: transparent;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: inset -8px 15px rgba(255, 255, 255, 0.1), 12px 15px 15px rgba(0, 0, 0, 0.3);
     font-size: 20px;
     font-weight: 500;
     color: white;
@@ -56,7 +57,8 @@ input {
 }
 
 #equal {
-    width: 126px;
+    /* width: 126px; */
+    flex-grow: 1;
 }
 
 .calculator .op {
