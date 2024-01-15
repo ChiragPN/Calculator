@@ -5,6 +5,7 @@ Array.from(buttons).forEach((button) => {
         if (e.target.innerHTML == '=') {
             string = eval(string);
             document.querySelector('input').value = string;
+            // console.log(document.querySelector('input').value);
         }
 
         else if (e.target.innerHTML == 'AC') {

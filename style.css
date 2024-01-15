@@ -57,8 +57,7 @@ input {
 }
 
 #equal {
-    /* width: 126px; */
-    flex-grow: 1;
+    width: 126px;
 }
 
 .calculator .op {
